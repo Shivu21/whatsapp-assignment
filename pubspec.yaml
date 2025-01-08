@@ -1,0 +1,24 @@
+name: mobile_call_app
+description: A basic WhatsApp-like call console app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  awesome_snackbar_content: ^0.1.5
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/whatsapp.webp
+    - assets/images/video.png
