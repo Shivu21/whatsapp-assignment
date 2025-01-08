@@ -1,5 +1,3 @@
-
-
 # **WhatsApp-Like Call Console**
 
 A Flutter application simulating WhatsApp-like audio and video calls with basic features, including starting calls, handling incoming calls, and in-call controls.
@@ -7,6 +5,7 @@ A Flutter application simulating WhatsApp-like audio and video calls with basic 
 ---
 
 ## **Features**
+
 - **Idle State**: Buttons to start audio or video calls and simulate an incoming call.
 - **Incoming Call Screen**:
   - Displays a prompt with a user avatar and options to **Accept** or **Reject** the call.
@@ -21,22 +20,31 @@ A Flutter application simulating WhatsApp-like audio and video calls with basic 
 ---
 
 ## **Screenshots**
+
 ### Idle State
+
 ![Idle State](assets/screenshots/Screenshot1.png)
 
 ### Incoming Call Screen
+
 ![Incoming Call Screen](assets/screenshots/Screenshot2.png)
 
 ### In-Call Screen
+
 ![In-Call Screen](assets/screenshots/Screenshot3.png)
 
 ### Simulate Call Screen
+
 ![In-Call Screen](assets/screenshots/Screenshot4.png)
 
+## Demo
+
+![Demo](assets/screenshots/demo.gif)
 
 ## **Steps to Run the App**
 
 1. **Clone the Repository**:
+
    ```bash
    git clone <repository-url>
    cd <repository-folder>
@@ -44,16 +52,19 @@ A Flutter application simulating WhatsApp-like audio and video calls with basic 
 
 2. **Install Dependencies**:
    Run the following command to fetch all required dependencies:
+
    ```bash
    flutter pub get
    ```
 
 3. **Set Up Assets**:
    Ensure the following files are in the `assets/images` folder:
+
    - `whatsapp.webp` (default avatar image)
    - `play_video.png` (video feed placeholder image)
 
    Update the `pubspec.yaml` file:
+
    ```yaml
    flutter:
      assets:
@@ -63,6 +74,7 @@ A Flutter application simulating WhatsApp-like audio and video calls with basic 
 
 4. **Run the App**:
    Use the Flutter CLI to launch the app:
+
    ```bash
    flutter run
    ```
@@ -72,6 +84,7 @@ A Flutter application simulating WhatsApp-like audio and video calls with basic 
 ---
 
 ## **Project File Structure**
+
 ```plaintext
 lib/
 ├── main.dart                      # Entry point of the app
@@ -89,12 +102,14 @@ lib/
 ---
 
 ## **Dependencies**
+
 - **`provider`**: State management.
 - **`awesome_snackbar_content`**: Enhanced visual snackbars for user feedback.
 
 ---
 
 ## **Summary of Implemented Features**
+
 1. **Call State Management**:
    - Idle → Ringing → In-Call → Call Ended
 2. **UI Features**:
@@ -110,16 +125,19 @@ lib/
 ---
 
 ## **Contributing**
+
 Feel free to open issues or contribute to this project by submitting pull requests.
 
 ---
 
 ## **License**
+
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## **Contact**
-For any queries, please contact:
-- **Email**: [shivamshakya2111@gmail.com.com]
 
+For any queries, please contact:
+
+- **Email**: [shivamshakya2111@gmail.com.com]
